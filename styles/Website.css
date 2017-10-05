@@ -1,0 +1,979 @@
+/* Accomodation Page*/
+#header{
+    width:100%;
+    height: 80px;
+}
+
+#header:hover
+{
+    cursor: pointer;
+}
+
+#enquiry
+{
+    font-size: 20px;
+}
+.top
+{
+    text-decoration: underline;
+    background-size: cover;
+    
+}
+.head
+{
+    background-color: green;
+}
+
+body{
+    background-image: url("images/night.jpg");
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-left:20px;
+	padding-right:20px;
+
+	font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+
+#email
+{
+    width: 258px;
+}
+
+#middle
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+    display:inline-block;
+    width: 400px;
+    margin: 0px 520px;
+    padding: 15px;  
+    float: right;
+    background-color: DimGray ;
+    background-image: url(images/gray.jpg);
+    background-repeat: no-repeat;
+    /*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    /*filter: blur(5px);*/
+}
+
+.bottom
+{
+    color:black;
+}.bottom:hover
+{
+    background-color: #F9EDED;
+}
+
+input[type = submit] ,[type = reset]
+{
+    width: 20%;
+    
+    background-color: white;
+    color:black;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type = text],[type = date]
+{
+    color:black;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    border-radius: 5px;
+}
+
+#firstName,#email,#phone, #DateOfBirth
+{
+    margin: 3px 0px;
+}
+
+#street
+{
+    margin:0px 24px;
+    padding-right: 100px;   
+}
+#town
+{
+    margin: 0px 29px;
+}
+#state
+{
+    margin: 0px 30px;
+}
+#rental
+{
+    width: 50px;
+}
+
+#comments{
+    color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    border-color: white;
+    background-color: darkgreen;
+}
+
+#link
+{
+    color:lightblue;
+}
+
+footer {
+	clear: both;
+	width: 700px;
+	height: 70px;
+	text-align: center;
+	color: lightgrey;
+	background:darkgrey;
+	height:40px;
+	margin: 90px 0 0 ;
+	padding: 5px 0 0 0;
+    width:100%;
+	border-radius: 4px;
+	border-bottom:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+}
+	
+footer a {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+footer li{
+    margin: 0;
+	padding: 0 12px;
+	display: inline;
+	border-right: 3px solid lightgrey;
+	color: white;
+}
+
+
+p{
+	color: lightgrey;
+	font-size: 100%;
+	
+}
+
+h1{
+	color: white;
+	font-size: 300%;
+	
+}
+
+h2{
+	color:white;
+	font-size: 200%;
+	
+}
+
+
+body 
+{
+
+background-image: images/night.jpg;	
+	
+	
+}
+
+.money{
+	
+	color:green;
+	
+}
+
+.pic{
+	
+	width: 500px;
+	height: 300px;
+	
+	
+}
+
+.book {
+	
+	color: black;
+	font-size: 150%;
+	
+	
+}
+
+table, th, td
+{
+	
+	border: 2px solid orange;
+	background-color: black;
+	
+}
+
+th 
+{
+	
+	background-color: orange;
+	color: white;
+	
+}
+
+td 
+{
+	color: white;
+	
+	
+}
+
+/*Communication page*/
+body
+{
+    background-image: url("images/night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	}
+
+#header
+{
+    width:100%;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#table{
+	color:black;
+	
+	
+}
+
+footer {
+	clear: both;
+	width: 700px;
+	height: 70px;
+	text-align: center;
+	color: lightgrey;
+	
+	height:40px;
+	margin: 90px 0 0 ;
+	padding: 5px 0 0 0;
+    width:100%;
+	border-radius: 4px;
+	
+}
+	
+footer a {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+footer li{
+    margin: 0;
+	padding: 0 12px;
+	display: inline;
+	
+	color: white;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+a:hover
+{
+    background-color: darkgreen;
+}
+
+
+
+.booknow:hover
+{
+    cursor: pointer;
+}
+/* Car Rental*/
+
+body
+{
+    background-image: url("images/night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	}
+
+#header
+{
+    width:100%;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#table{
+	color:black;
+	
+	
+}
+
+footer {
+	clear: both;
+	width: 700px;
+	height: 70px;
+	text-align: center;
+	color: lightgrey;
+	background:darkgrey;
+	height:40px;
+	margin: 90px 0 0 ;
+	padding: 5px 0 0 0;
+    width:100%;
+	border-radius: 4px;
+	border-bottom:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+}
+	
+footer a {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+footer li{
+    margin: 0;
+	padding: 0 12px;
+	display: inline;
+	border-right: 3px solid lightgrey;
+	color: white;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+a:hover
+{
+    background-color: darkgreen;
+}
+
+
+
+.booknow:hover
+{
+    cursor: pointer;
+}
+
+/*Tours or Shipping page */
+body
+{
+    background-image: url("images/night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	padding-left:20px;
+	padding-right:20px;
+	}
+
+#header
+{
+    width:100%;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+a:hover
+{
+    background-color: darkgreen;
+}
+
+.tourpic
+{
+    border: 5px solid #ccc;
+    width: 500px;
+    height: 300px;
+}
+
+#tourtable
+{
+    color:white;
+    border: 0px solid #ccc;
+    font-size: 1.1em;
+}
+
+.tourhead
+{
+    text-decoration: underline;
+}
+
+.booknow:hover
+{
+    cursor: pointer;
+}
+/*Enquiry page*/
+
+
+
+#header{
+    width:100%;
+    height: 80px;
+}
+
+#header:hover
+{
+    cursor: pointer;
+}
+
+.top
+{
+    text-decoration: underline;
+    background-size: cover;
+    
+}
+.head
+{
+    background-color: green;
+}
+
+body{
+    background-image: url("images/night.jpg");
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+     color: white;
+	 padding-left:20px;
+	 padding-right:20px;
+
+	font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+
+#email
+{
+    width: 258px;
+}
+
+#middle
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+    display:inline-block;
+    width: 400px;
+    margin: 0px 520px;
+    padding: 15px;  
+    float: right;
+    background-color: DimGray ;
+    background-image: url(images/gray.jpg);
+    background-repeat: no-repeat;
+    /*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    /*filter: blur(5px);*/
+}
+
+.bottom
+{
+    color:black;
+}.bottom:hover
+{
+    background-color: #F9EDED;
+}
+
+input[type = submit] ,[type = reset]
+{
+    width: 20%;
+    
+    background-color: white;
+    color:black;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type = text],[type = date]
+{
+    color:black;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    border-radius: 5px;
+}
+
+#firstName,#email,#phone, #DateOfBirth
+{
+    margin: 3px 0px;
+}
+
+#street
+{
+    margin:0px 24px;
+    padding-right: 100px;   
+}
+#town
+{
+    margin: 0px 29px;
+}
+#state
+{
+    margin: 0px 30px;
+}
+#rental
+{
+    width: 50px;
+}
+
+#comments{
+    color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    border-color: white;
+    background-color: darkgreen;
+}
+
+#link
+{
+    color:lightblue;
+}
+/*disclaimer*/
+body{
+    background-image: url("images/night.jpg");
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+     color: white;
+
+	font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+#header
+{
+    width:100%;
+    height: 80px;
+}
+.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navigationlist {
+    float: left;
+}
+
+.navigationlist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: darkgreen;
+}
+footer {
+	clear: both;
+	width: 700px;
+	height: 70px;
+	text-align: center;
+	color: lightgrey;
+	background:darkgrey;
+	height:40px;
+	margin: 90px 0 0 ;
+	padding: 5px 0 0 0;
+    width:100%;
+	border-radius: 4px;
+	border-bottom:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+    
+}
+	
+footer a {
+	font-weight: bold;
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+footer li{
+    margin: 0;
+	padding: 0 12px;
+	display: inline;
+	border-right: 3px solid lightgrey;
+	color: white;
+}
+
+/*about me page*/
+#me
+{
+    padding: 20px;
+    margin: 0px;
+    width: 250px;
+    border: groove;
+}
+
+.info
+{
+    
+    padding: 0px 400px;
+    font-size: 2em;
+    position: relative;
+    white-space: nowrap;
+    top: -250px;
+}
+
+#name
+{
+    text-align: center;
+    margin: -200px 0px;
+	color:D3D3D3;
+}
+#name_1
+{	text-align: center;
+    margin: -200px 0px;
+	color:000000;
+}
+#studentID
+{
+    text-align: right;
+    font-family: arial, sans-serif;
+    margin: 205px 0px;
+}
+#course
+{
+    text-align: center;
+    margin: -170px 0px;
+    color: rgb(249,37,37);
+}
+
+
+#header{
+    width:100%;
+    height: 80px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: darkgreen;
+}
+body
+{
+    background-image: url("images/background_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.header4{
+    text-decoration: underline;
+}
+
+.header3{
+    text-align: center;
+}
+
+#myemail
+{
+    color: lightblue;
+}
+
+#tableDetails
+{
+    border: 1px solid #ccc;
+    background-color:#808080;
+    text-align: center;
+}
+/*Index page*/
+
+
+#header{
+    width:100%;
+    height: 80px;
+}
+
+#header:hover
+{
+    cursor: pointer;
+}
+
+.top
+{
+    text-decoration: underline;
+    background-size: cover;
+    
+}
+.head
+{
+    background-color: green;
+}
+
+body{
+    background-image: url("images/night.jpg");
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+     color: white;
+
+	font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+
+#email
+{
+    width: 258px;
+}
+
+#middle
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+    display:inline-block;
+    width: 400px;
+    margin: 0px 520px;
+    padding: 15px;  
+    float: right;
+    background-color: DimGray ;
+    background-image: url(images/gray.jpg);
+    background-repeat: no-repeat;
+    /*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+    /*filter: blur(5px);*/
+}
+
+.bottom
+{
+    color:black;
+}.bottom:hover
+{
+    background-color: #F9EDED;
+}
+
+input[type = submit] ,[type = reset]
+{
+    width: 20%;
+    
+    background-color: white;
+    color:black;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type = text],[type = date]
+{
+    color:black;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    border-radius: 5px;
+}
+
+#firstName,#email,#phone, #DateOfBirth
+{
+    margin: 3px 0px;
+}
+
+#street
+{
+    margin:0px 24px;
+    padding-right: 100px;   
+}
+#town
+{
+    margin: 0px 29px;
+}
+#state
+{
+    margin: 0px 30px;
+}
+#rental
+{
+    width: 50px;
+}
+
+#comments{
+    color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    border-color: white;
+    background-color: darkgreen;
+}
+
+#link
+{
+    color:lightblue;
+}
+
+.aboutmePic
+{
+    height: 250px;
+    width: 320px;
+}
+
+#timezone
+{
+    color: white;
+}
+
+#contactTime
+{
+    color:white;
+}
+
+#enhancetext
+{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+#thankyou
+{
+    font-size: 20px;
+}
+
+#phptext
+{
+    color:white;
+}
